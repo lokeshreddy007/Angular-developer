@@ -119,3 +119,16 @@ Assignment       =
     console.log(firstNumber); // 1
     console.log(allNumbersExceptFirstNumber); //  [2, 3, 4, 5, 6, 7, 8, 9, 10]
  ```
+ ###### Classes ######
+
+Class is a blue print of an object.Many object can be created from same class.O Dot operator is used for accessing members of object.Memory allocated for object is also called as instance.
+
+A constructor is a block of codes similar to the method. It is called when an instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory.
+
+Encapsulation - Binding (or wrapping) code and data together into a single unit
+
+Interfaces - Like a class, an interface can have methods and variables, but the methods declared in an interface are by default abstract (only method signature, no body). 
+
+Inheritance- When one object acquires all the properties and behaviors of a parent object
+
+Access Modifiers - Private, Protected, Public
