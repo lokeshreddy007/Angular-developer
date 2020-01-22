@@ -119,7 +119,7 @@ Assignment       =
     console.log(firstNumber); // 1
     console.log(allNumbersExceptFirstNumber); //  [2, 3, 4, 5, 6, 7, 8, 9, 10]
  ```
- ###### Classes ######
+ ##### Classes #####
 
 Class is a blue print of an object.Many object can be created from same class.O Dot operator is used for accessing members of object.Memory allocated for object is also called as instance.
 
@@ -132,3 +132,50 @@ Interfaces - Like a class, an interface can have methods and variables, but the 
 Inheritance- When one object acquires all the properties and behaviors of a parent object
 
 Access Modifiers - Private, Protected, Public
+
+ ###### Arrow Function ######
+
+Arrow functions allow us to write shorter function syntax
+
+ ```javascript
+    // Normal 
+    hello = function() {
+        return "Hello World!";
+    }
+
+    // Arrow function
+    hello = () => {
+        return "Hello World!";
+    }
+    // Return Default Value then can write
+    hello = () => "Hello World!";
+
+    // function with Parameter
+    hello = (val) => "Hello " + val;
+
+```
+
+ ###### Arrow function - map ######
+ ```javascript
+    const number = [1,2,3];
+    // ES5 map function
+    const updatedNumberEs5 = number.map(function(x) {
+        return x +=1
+    });
+    console.log(updatedNumberEs5); // [2, 3, 4]
+
+    // ES6 Map function
+    const updatedNumberEs6 = number.map( x => x+1) // [2, 3, 4]
+ ```
+ ###### Arrow function - filter ######
+ ```javascript
+    const ages = [25,60,12,18];
+
+    const adultsEs5 = ages.filter(function(ages) {
+        return ages >= 18;
+    })
+    console.log(adultsEs6); //  [25, 60, 18]
+
+    const adultsEs6 =ages.filter((ages) =>ages >= 18)
+    console.log(adultsEs6); // [25, 60, 18]
+```
