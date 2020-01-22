@@ -1,5 +1,10 @@
 # Angular Quick Reference
 
+1. [TypeScript](#TypeScript)  
+2. [Angular](#Angular) 
+
+# TypeScript
+
 Before learning Angualr we need have basic knowledge about `TypeScript` and `Es6 Features`
 1. TypeScript is a superset of JavaScript
 2. It contains optional static typing, which can prevent runtime errors
@@ -179,3 +184,6 @@ Arrow functions allow us to write shorter function syntax
     const adultsEs6 =ages.filter((ages) =>ages >= 18)
     console.log(adultsEs6); // [25, 60, 18]
 ```
+# Angular
+
+ ###### Declarations ######
